@@ -1,7 +1,7 @@
 # Xi Mode
 This provides simple syntax highlighting and indentation for Xi in Emacs.
 
-![Image of Xi Code](https://raw.githubusercontent.com/sgpthomas/xi-mode/master/pics/xi-mode.png)
+![Image of Xi Code](https://raw.githubusercontent.com/sgpthomas/xi-mode/master/pics/xi-mode.gif)
 
 ## Installation
 Clone this repository to a location of your choice. Add it to the laod path, and then require `xi-mode`. 
