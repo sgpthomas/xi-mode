@@ -1,7 +1,7 @@
 # Xi Mode
 This provides simple syntax highlighting and indentation for Xi in Emacs.
 
-![Image of Xi Code](https://raw.githubusercontent.com/sgpthomas/xi-mode/master/pics/xi-mode.gif)
+<img src="https://raw.githubusercontent.com/sgpthomas/xi-mode/master/pics/xi-mode.gif" width="500">
 
 ## Installation
 Clone this repository to a location of your choice. Add it to the laod path, and then require `xi-mode`. 
@@ -15,3 +15,4 @@ I imagine it looks very similar for pure emacs, but haven't actually tried it my
 ## Known Bugs
  - The indentation code isn't aware of comments which means that a lone bracket in a comment will throw off indentation.
  - `If` and `While` statements that don't use brackets won't have indented bodies. This is more of an issue that the first so I will probably fix this soon.
+ - Negative numbers not highlighted
