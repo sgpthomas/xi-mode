@@ -4,7 +4,7 @@ This provides simple syntax highlighting and indentation for Xi in Emacs.
 ## Installation
 Clone this repository to a location of your choice. Add it to the laod path, and then require `xi-mode`. 
 For Spacemacs, this looks like adding the following lines to `dotspacemacs/user-config` in your `.spacemacs` file:
-```
+```elisp
 (push "~/.emacs.d/private/xi-mode" load-path)
 (require 'xi-mode)
 ```
