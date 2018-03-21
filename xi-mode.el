@@ -53,14 +53,16 @@
   (let* (
          (xi-keywords '("use" "if" "while" "else" "return" "length"))
          (xi-types '("int" "bool"))
+         (xi-bools '("true" "false"))
 
          (xi-keywords-regexp (regexp-opt xi-keywords 'words))
          (xi-types-regexp (regexp-opt xi-types 'words))
-         (xi-functions-regexp "\\<\\(test\\|fun\\)\\>"))
+         (xi-bools-regexp (regexp-opt xi-bools 'word)))
 
     `(
       (,xi-keywords-regexp . (1 font-lock-keyword-face))
       (,xi-types-regexp . (1 font-lock-type-face))
+      (,xi-bools-regexp . (1 font-lock-constant-face))
       )))
 
  ;;; Indentation
