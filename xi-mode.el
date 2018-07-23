@@ -51,9 +51,10 @@
 
 (setq xi-font-lock-keywords
   (let* (
-         (xi-keywords '("use" "if" "while" "else" "return" "length"))
+         (xi-keywords '("use" "if" "while" "else" "return" "length" "class" "extends"
+                        "break" "continue" "new"))
          (xi-types '("int" "bool"))
-         (xi-bools '("true" "false"))
+         (xi-bools '("true" "false" "null"))
 
          (xi-keywords-regexp (regexp-opt xi-keywords 'words))
          (xi-types-regexp (regexp-opt xi-types 'words))
